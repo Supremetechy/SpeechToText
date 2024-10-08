@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Controlled Web App</title>
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          padding: 20px;
+          background-color: #f4f4f4;
+      }
+      #output {
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background=color: white;
+        width: 100%;
+        max-width: 500px;
+        min-height: 50px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }      
+    </style>
+  </head>
+  <body>
+    <h1> Voice-Controlled Web App</h1>
+    <p>Click the button and speak. Your voice will be recognized and displayed as text.</p>
+    <button id="startBtn">Start Voice Recognition</button>
+    <div id="output">Recognize text will appear here...</div>
+
+    <script src="app.js"></sricpt>
+  </body>
